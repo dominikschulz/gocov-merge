@@ -80,6 +80,6 @@ func main() {
 	if coverageNum > 0 {
 		coverage = coverageSum / float64(coverageNum)
 	}
-	fmt.Printf("gocov combined coverage: %.2f%%", coverage)
+	fmt.Printf("gocov combined coverage: %.2f%%\n", coverage)
 	return
 }
